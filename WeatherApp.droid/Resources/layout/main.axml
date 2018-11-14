@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:id="@+id/tvCaption"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="35dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginBottom="-69dp"
+		android:text="City"
+		android:textSize="22sp" />
+	<EditText
+		android:id="@+id/etCity"
+		android:layout_width="241dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="79dp"
+		android:hint="Enter City name"
+		android:padding="16dp"
+		local:MvxBind="Text Location"
+		android:textSize="22sp" />
+	<Button
+		android:id="@+id/btnSubmit"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_marginLeft="20dp"
+		android:text="Weather"
+		android:textAllCaps="false" />
+
+</LinearLayout>
